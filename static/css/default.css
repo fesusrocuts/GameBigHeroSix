@@ -1,0 +1,203 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background: #c12529;
+  background-image: url("../image/bk1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100%;
+}
+/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+.container_base
+{
+  background: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /*flex-flow: row wrap;*/
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: stretch;
+  width: 100%;
+  height: 600px;
+}
+.container
+{
+  background: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /*flex-flow: row wrap;*/
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: stretch;
+  width: 100%;
+  height: 600px;
+}
+.container .box
+{
+  background: #a1bf7f;
+  max-width: 600px;
+  width: 100%;
+  margin: 5em auto;
+  text-align: center;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  outline: 4px solid #17FFD1;
+  outline-offset: 1px;
+}
+.container .line_break
+{
+  width: 100%;
+  height: 0.5em;
+  background: #d0d0d0;
+}
+.container .box .head,
+.container .box .foot
+{
+  background: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*flex-flow: row wrap;*/
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: stretch;
+  min-height: 4em;
+  width: 100%;
+}
+.container .box .head .section,
+.container .box .foot .section
+{
+  background: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*flex-flow: row wrap;*/
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: stretch;
+  min-height: 4em;
+  width: 40%;
+}
+
+.container .box .question
+{
+  background: #c12529;
+  background-image: url("../image/bk2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /*flex-flow: row wrap;*/
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: stretch;
+  min-height: 22em;
+  width: 100%;
+}
+.container .box .question .text
+{
+  /*background: #c12529;*/
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /*flex-flow: row wrap;*/
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: stretch;
+  min-height: 8em;
+  width: 100%;
+  font-family:Arial;
+	font-size:1em;
+}
+.container .box .question .answers
+{
+  /*background: #c12529;*/
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*flex-flow: row wrap;*/
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  align-self: stretch;
+  min-height: 12em;
+  width: 100%;
+}
+.container .box .question .answers .answer
+{
+  /*background: none;*/
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*flex-flow: row wrap;*/
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: stretch;
+  min-height: 3em;
+  width: 40%;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  outline: 1px solid gray;
+  outline-offset: 1px;
+}
+
+.btnAnswer {
+	-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #385b94), color-stop(1, #132e4f));
+	background:-moz-linear-gradient(top, #385b94 5%, #132e4f 100%);
+	background:-webkit-linear-gradient(top, #385b94 5%, #132e4f 100%);
+	background:-o-linear-gradient(top, #385b94 5%, #132e4f 100%);
+	background:-ms-linear-gradient(top, #385b94 5%, #132e4f 100%);
+	background:linear-gradient(to bottom, #385b94 5%, #132e4f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#385b94', endColorstr='#132e4f',GradientType=0);
+	background-color:#385b94;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	/*display:inline-block;*/
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:1em;
+	/*padding:12px 37px;*/
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.btnAnswer:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #132e4f), color-stop(1, #385b94));
+	background:-moz-linear-gradient(top, #132e4f 5%, #385b94 100%);
+	background:-webkit-linear-gradient(top, #132e4f 5%, #385b94 100%);
+	background:-o-linear-gradient(top, #132e4f 5%, #385b94 100%);
+	background:-ms-linear-gradient(top, #132e4f 5%, #385b94 100%);
+	background:linear-gradient(to bottom, #132e4f 5%, #385b94 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#132e4f', endColorstr='#385b94',GradientType=0);
+	background-color:#132e4f;
+}
+.btnAnswer:active {
+	/*position:relative;
+	top:1px;*/
+}

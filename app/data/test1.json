@@ -1,0 +1,270 @@
+{
+  "version":"1.0.0.0",
+  "authors":"Dennis Jhovana Rocuts Rolon, Fesus Rocuts",
+  "description":"App to validate your knowledge about Big Hero 6 and General Culture",
+  "rules":"The participant should choose one answer of the pool possibilities that the systems show of random mode to question, also you take account to pass the level, you need answers all questions, How you win? You win when finsih the event and you score is the best, the score is calculate with the next rules: the each level you can reach 100 points with 5 random questions",
+  "credits":"",
+  "licence":"GNU General Public License v3, https://www.gnu.org/licenses/gpl-3.0.en.html",
+  "level":[
+    {
+      "lang":"es",
+      "name":"Nivel 1",
+      "topics":[
+        {
+          "type":"generalculture",
+          "questions":[
+            {
+              "q":"¿Cuál es la capital de Colombia?",
+              "o":[
+                "Medellín",
+                "Quito",
+                "Caracas",
+                "Bogotá"
+              ],
+              "ca":"Bogotá",
+              "help":""
+            },
+            {
+              "q":"La Unesco declaró Bien Natural de la Humanidad a:",
+              "o":[
+                "Las Playas de las Islas del Rosario",
+                "El Cerro de Monserrate",
+                "El Paisaje Cultural Cafetero",
+                "La Piedra de El Peñol"
+              ],
+              "ca":"El Paisaje Cultural Cafetero",
+              "help":"En la zona cafetalera colombiana se produce el que está considerado el mejor café suave del mundo, que supuso la actividad principal de la economía del país durante gran parte del siglo pasado y generó en su región una mayor calidad de vida."
+            },
+            {
+              "q":"Colombia posee costa sobre dos océanos, ¿cuáles son?",
+              "o":[
+                "El Atlántico y el Índico",
+                "El Pacífico y el Caribe",
+                "El Pacífico y el Atlántico",
+                "El Caribe y el Antártico"
+              ],
+              "ca":"El Pacífico y el Atlántico",
+              "help":""
+            },
+            {
+              "q":"El premio Nobel colombiano, conocido por la novela “Cien años de soledad” se llama:",
+              "o":[
+                "Octavio Paz",
+                "Gabriel García Márquez",
+                "Francisco José Cela",
+                "Mario Vargas Llosa"
+              ],
+              "ca":"Gabriel García Márquez",
+              "help":""
+            },
+            {
+              "q":"El héroe de la independencia colombiana, venezolana y ecuatoriana se llama",
+              "o":[
+                "José Martí",
+                "Simón Bolívar",
+                "Che Guevara",
+                "Pancho Villa"
+              ],
+              "ca":"Simón Bolívar",
+              "help":""
+            },
+            {
+              "q":"¿Cuántas regiones conforman la geografía colombiana?",
+              "o":[
+                "3",
+                "4",
+                "5",
+                "6"
+              ],
+              "ca":"6",
+              "help":"Amazonia, Andina, Caribe, Insular, Ornoqui Orinoquía y Pacífico"
+            },
+            {
+              "q":"¿A qué ciudad se le conoce como 'La ciudad de la eterna primavera'?",
+              "o":[
+                "Medellín",
+                "Bogotá",
+                "Cartagena",
+                "Barranquilla"
+              ],
+              "ca":"Medellín",
+              "help":""
+            },
+            {
+              "q":"¿En qué hemisferio está situado Colombia?",
+              "o":[
+                "En el hemisferio sur",
+                "En el hemisferio norte",
+                "En los dos hemisferios",
+                "En ninguno"
+              ],
+              "ca":"En los dos hemisferios",
+              "help":"El 70 %del territorio se encuentra en el hemisferio norte y el otro 30% en el hemisferio sur."
+            },
+            {
+              "q":"El río Amazonas y el Orinoco son las fronteras naturales de Colombia con:",
+              "o":[
+                "Brasil y Guyana",
+                "Perú y Brasil",
+                "Venezuela y Argentina",
+                "Perú y Venezuela"
+              ],
+              "ca":"Perú y Venezuela",
+              "help":""
+            },
+            {
+              "q":"Colombia es el segundo exportador de flores en el mundo después de:",
+              "o":[
+                "Japón",
+                "EE.UU.",
+                "Holanda",
+                "Kenia"
+              ],
+              "ca":"Holanda",
+              "help":""
+            },
+            {
+              "q":"Colombia es uno de los países del planeta más rico en:",
+              "o":[
+                "Razas de ganado",
+                "Desiertos",
+                "Biodiversidad",
+                "Bosque primario"
+              ],
+              "ca":"Biodiversidad",
+              "help":""
+            },
+            {
+              "q":"El patólogo Manuel Elkin Patarroyo es famoso por los estudios de una vacuna sintética contra el:",
+              "o":[
+                "Ébola",
+                "Paludismo o malaria",
+                "Chikungunya",
+                "Dengue"
+              ],
+              "ca":"Paludismo o malaria",
+              "help":""
+            },
+            {
+              "q":"Una de las tribus o pueblos indígenas que habita al noreste del país se llama:",
+              "o":[
+                "Zenú",
+                "Wayú",
+                "Emberá",
+                "Ticuna"
+              ],
+              "ca":"Wayú",
+              "help":"Los wayú o guajiros (del arahuaco guajiro, “señor, hombre poderoso”), son aborígenes de la península de la Guajira, sobre el mar Caribe, que habitan territorios de Colombia y Venezuela, sin tener en cuenta las fronteras entre estos dos países sudamericanos."
+            },
+            {
+              "q":"¿Qué prenda de vestir es símbolo cultural de Colombia?",
+              "o":[
+                "El poncho",
+                "El ruana",
+                "El sombrero vueltiao",
+                "La guayabera"
+              ],
+              "ca":"El sombrero vueltiao",
+              "help":"El sombrero vueltiao es símbolo por excelencia de la colombianidad. Se hizo conocido cuando el boxeador Miguel “Happy” Lora lo usó al convertirse en campeón mundial en 1985. El Congreso de la República lo declaró patrimonio cultural de la nación a través del decreto ley 908 de 2004. (Ema)."
+            }
+          ]
+        },
+        {
+          "type":"bigherosix",
+          "questions":[
+            {
+              "q":"Cuáles son los protagonistas",
+              "o":[
+                "Wasabi y Honey Lemon",
+                "Gogo",
+                "Fred",
+                "Baymax y Hiro Hamada"
+              ],
+              "ca":"Baymax y Hiro Hamada",
+              "help":""
+            },
+            {
+              "q":"Dónde viven los personajes",
+              "o":[
+                "San Tokyo",
+                "San Antokyo",
+                "San Francisco",
+                "San Fransokyo"
+              ],
+              "ca":"San Fransokyo",
+              "help":""
+            },
+            {
+              "q":"Quién creo a Baymax",
+              "o":[
+                "Hiro Hamada",
+                "Callaghan",
+                "Tadashi Hamada",
+                "Honey Lemon"
+              ],
+              "ca":"Tadashi Hamada",
+              "help":""
+            },
+            {
+              "q":"Big Hero 6 fue dominada y ganadora de un Oscar",
+              "o":[
+                "Si fue nominada y ganadora",
+                "No",
+                "No fue nominada",
+                "Fue dominada pero no ganadora"
+              ],
+              "ca":"Si fue nominada y ganadora",
+              "help":""
+            },
+            {
+              "q":"Cómo se llama el papa de fred",
+              "o":[
+                "Wasabi no Ginger",
+                "Stan Lee",
+                "Heathcliff",
+                "No lo dicen"
+              ],
+              "ca":"Stan Lee",
+              "help":""
+            },
+            {
+              "q":"Cómo se llama el antagonista",
+              "o":[
+                "Alistair Krei",
+                "Yama",
+                "Robert Callaghan",
+                "Mochi"
+              ],
+              "ca":"Robert Callaghan",
+              "help":""
+            },
+            {
+              "q":"Quién invento los Microbots",
+              "o":[
+                "Hiro Hamada",
+                "Tadashi Hamada",
+                "Robert Callaghan",
+                "Alistair Krey"
+              ],
+              "ca":"Hiro Hamada",
+              "help":""
+            },
+            {
+              "q":"Quién es Yokai",
+              "o":[
+                "El fantansma",
+                "El gato de la tia Cass",
+                "Abigail Callaghan",
+                "Yama"
+              ],
+              "ca":"El fantansma",
+              "help":""
+            }
+          ]
+        }
+      ]
+    },
+    {},
+    {}
+  ]
+}

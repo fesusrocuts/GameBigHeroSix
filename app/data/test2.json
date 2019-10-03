@@ -266,7 +266,7 @@
     },
     {
       "lang":"es,en",
-      "name":"Nivel 2",
+      "name":"Nive2",
       "topics":[
         {
           "type":"generalculture",
@@ -305,265 +305,7 @@
               "help":""
             },
             {
-              "q":"The Colombian Nobel Prize, known for the novel "One Hundred Years of Solitude" is called:",
-              "o":[
-                "Octavio Paz",
-                "Gabriel García Márquez",
-                "Francisco José Cela",
-                "Mario Vargas Llosa"
-              ],
-              "ca":"Gabriel García Márquez",
-              "help":""
-            },
-            {
-              "q":"The hero of Colombian, Venezuelan and Ecuadorian independence is called",
-              "o":[
-                "José Martí",
-                "Simón Bolívar",
-                "Che Guevara",
-                "Pancho Villa"
-              ],
-              "ca":"Simón Bolívar",
-              "help":""
-            },
-            {
-              "q":"How many regions make up the Colombian geography?",
-              "o":[
-                "3",
-                "4",
-                "5",
-                "6"
-              ],
-              "ca":"6",
-              "help":"Amazonia, Andina, Caribe, Insular, Ornoqui Orinoquía y Pacífico"
-            },
-            {
-              "q":"What city is known as 'The city of eternal spring'?",
-              "o":[
-                "Medellín",
-                "Bogotá",
-                "Cartagena",
-                "Barranquilla"
-              ],
-              "ca":"Medellín",
-              "help":""
-            },
-            {
-              "q":"In which hemisphere is Colombia located?",
-              "o":[
-                "En el hemisferio sur",
-                "En el hemisferio norte",
-                "En los dos hemisferios",
-                "En ninguno"
-              ],
-              "ca":"En los dos hemisferios",
-              "help":"El 70 %del territorio se encuentra en el hemisferio norte y el otro 30% en el hemisferio sur."
-            },
-            {
-              "q":"The Amazon River and the Orinoco are the natural borders of Colombia with:",
-              "o":[
-                "Brasil y Guyana",
-                "Perú y Brasil",
-                "Venezuela y Argentina",
-                "Perú y Venezuela"
-              ],
-              "ca":"Perú y Venezuela",
-              "help":""
-            },
-            {
-              "q":"Colombia es el segundo exportador de flores en el mundo después de:",
-              "o":[
-                "Japón",
-                "EE.UU.",
-                "Holanda",
-                "Kenia"
-              ],
-              "ca":"Holanda",
-              "help":""
-            },
-            {
-              "q":"Colombia es uno de los países del planeta más rico en:",
-              "o":[
-                "Razas de ganado",
-                "Desiertos",
-                "Biodiversidad",
-                "Bosque primario"
-              ],
-              "ca":"Biodiversidad",
-              "help":""
-            },
-            {
-              "q":"El patólogo Manuel Elkin Patarroyo es famoso por los estudios de una vacuna sintética contra el:",
-              "o":[
-                "Ébola",
-                "Paludismo o malaria",
-                "Chikungunya",
-                "Dengue"
-              ],
-              "ca":"Paludismo o malaria",
-              "help":""
-            },
-            {
-              "q":"Una de las tribus o pueblos indígenas que habita al noreste del país se llama:",
-              "o":[
-                "Zenú",
-                "Wayú",
-                "Emberá",
-                "Ticuna"
-              ],
-              "ca":"Wayú",
-              "help":"Los wayú o guajiros (del arahuaco guajiro, “señor, hombre poderoso”), son aborígenes de la península de la Guajira, sobre el mar Caribe, que habitan territorios de Colombia y Venezuela, sin tener en cuenta las fronteras entre estos dos países sudamericanos."
-            },
-            {
-              "q":"¿Qué prenda de vestir es símbolo cultural de Colombia?",
-              "o":[
-                "El poncho",
-                "El ruana",
-                "El sombrero vueltiao",
-                "La guayabera"
-              ],
-              "ca":"El sombrero vueltiao",
-              "help":"El sombrero vueltiao es símbolo por excelencia de la colombianidad. Se hizo conocido cuando el boxeador Miguel “Happy” Lora lo usó al convertirse en campeón mundial en 1985. El Congreso de la República lo declaró patrimonio cultural de la nación a través del decreto ley 908 de 2004. (Ema)."
-            }
-          ]
-        },
-        {
-          "type":"bigherosix",
-          "questions":[
-            {
-              "q":"Which are the protagonists?",
-              "o":[
-                "Wasabi y Honey Lemon",
-                "Gogo",
-                "Fred",
-                "Baymax y Hiro Hamada"
-              ],
-              "ca":"Baymax y Hiro Hamada",
-              "help":""
-            },
-            {
-              "q":"Where do the characters live?",
-              "o":[
-                "San Tokyo",
-                "San Antokyo",
-                "San Francisco",
-                "San Fransokyo"
-              ],
-              "ca":"San Fransokyo",
-              "help":""
-            },
-            {
-              "q":"Who created Baymax",
-              "o":[
-                "Hiro Hamada",
-                "Callaghan",
-                "Tadashi Hamada",
-                "Honey Lemon"
-              ],
-              "ca":"Tadashi Hamada",
-              "help":""
-            },
-            {
-              "q":"Big Hero 6 was dominated and Oscar winner",
-              "o":[
-                "Si fue nominada y ganadora",
-                "No",
-                "No fue nominada",
-                "Fue dominada pero no ganadora"
-              ],
-              "ca":"Si fue nominada y ganadora",
-              "help":""
-            },
-            {
-              "q":"What is the name of the father of Fred",
-              "o":[
-                "Wasabi no Ginger",
-                "Stan Lee",
-                "Heathcliff",
-                "No lo dicen"
-              ],
-              "ca":"Stan Lee",
-              "help":""
-            },
-            {
-              "q":"Cómo se llama el antagonista",
-              "o":[
-                "Alistair Krei",
-                "Yama",
-                "Robert Callaghan",
-                "Mochi"
-              ],
-              "ca":"Robert Callaghan",
-              "help":""
-            },
-            {
-              "q":"Quién invento los Microbots",
-              "o":[
-                "Hiro Hamada",
-                "Tadashi Hamada",
-                "Robert Callaghan",
-                "Alistair Krey"
-              ],
-              "ca":"Hiro Hamada",
-              "help":""
-            },
-            {
-              "q":"Quién es Yokai",
-              "o":[
-                "El fantansma",
-                "El gato de la tia Cass",
-                "Abigail Callaghan",
-                "Yama"
-              ],
-              "ca":"El fantansma",
-              "help":""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "lang":"es,en",
-      "name":"Nivel 3",
-      "topics":[
-        {
-          "type":"generalculture",
-          "questions":[
-            {
-              "q":"Which is the capital of Colombia?",
-              "o":[
-                "Medellín",
-                "Quito",
-                "Caracas",
-                "Bogotá"
-              ],
-              "ca":"Bogotá",
-              "help":""
-            },
-            {
-              "q":"Unesco declared the Natural Good of Humanity to:",
-              "o":[
-                "Las Playas de las Islas del Rosario",
-                "El Cerro de Monserrate",
-                "El Paisaje Cultural Cafetero",
-                "La Piedra de El Peñol"
-              ],
-              "ca":"El Paisaje Cultural Cafetero",
-              "help":"En la zona cafetalera colombiana se produce el que está considerado el mejor café suave del mundo, que supuso la actividad principal de la economía del país durante gran parte del siglo pasado y generó en su región una mayor calidad de vida."
-            },
-            {
-              "q":"Colombia has a coastline on two oceans, what are they?",
-              "o":[
-                "El Atlántico y el Índico",
-                "El Pacífico y el Caribe",
-                "El Pacífico y el Atlántico",
-                "El Caribe y el Antártico"
-              ],
-              "ca":"El Pacífico y el Atlántico",
-              "help":""
-            },
-            {
-              "q":"The Colombian Nobel Prize, known for the novel "One Hundred Years of Solitude" is called:",
+              "q":"The Colombian Nobel Prize, known for the novel 'One Hundred Years of Solitude' is called:",
               "o":[
                 "Octavio Paz",
                 "Gabriel García Márquez",
@@ -774,6 +516,264 @@
                 "Yama"
               ],
               "ca":"El fantansma",
+              "help":""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lang":"en",
+      "name":"Nivel 3",
+      "topics":[
+        {
+          "type":"generalculture",
+          "questions":[
+            {
+              "q":"Which is the capital of Colombia?",
+              "o":[
+                "Medellín",
+                "Quito",
+                "Caracas",
+                "Bogotá"
+              ],
+              "ca":"Bogotá",
+              "help":""
+            },
+            {
+              "q":"Unesco declared the Natural Good of Humanity to:",
+              "o":[
+                "The Beaches of the Rosario Islands",
+                "Monserrate Hill",
+                "The Coffee Cultural Landscape",
+                "The Stone of El Peñol"
+              ],
+              "ca":"El Paisaje Cultural Cafetero",
+              "help":"En la zona cafetalera colombiana se produce el que está considerado el mejor café suave del mundo, que supuso la actividad principal de la economía del país durante gran parte del siglo pasado y generó en su región una mayor calidad de vida."
+            },
+            {
+              "q":"Colombia has a coastline on two oceans, what are they?",
+              "o":[
+                "The Atlantic and the Indian",
+                "The Pacific and the Caribbean",
+                "The Pacific and the Atlantic",
+                "The Caribbean and the Antarctic"
+              ],
+              "ca":"The Pacific and the Atlantic",
+              "help":""
+            },
+            {
+              "q":"The Colombian Nobel Prize, known for the novel 'One Hundred Years of Solitude' is called:",
+              "o":[
+                "Octavio Paz",
+                "Gabriel García Márquez",
+                "Francisco José Cela",
+                "Mario Vargas Llosa"
+              ],
+              "ca":"Gabriel García Márquez",
+              "help":""
+            },
+            {
+              "q":"The hero of Colombian, Venezuelan and Ecuadorian independence is called",
+              "o":[
+                "José Martí",
+                "Simón Bolívar",
+                "Che Guevara",
+                "Pancho Villa"
+              ],
+              "ca":"Simón Bolívar",
+              "help":""
+            },
+            {
+              "q":"How many regions make up the Colombian geography?",
+              "o":[
+                "3",
+                "4",
+                "5",
+                "6"
+              ],
+              "ca":"6",
+              "help":"Amazonia, Andina, Caribe, Insular, Ornoqui Orinoquía y Pacífico"
+            },
+            {
+              "q":"What city is known as 'The city of eternal spring'?",
+              "o":[
+                "Medellín",
+                "Bogotá",
+                "Cartagena",
+                "Barranquilla"
+              ],
+              "ca":"Medellín",
+              "help":""
+            },
+            {
+              "q":"In which hemisphere is Colombia located?",
+              "o":[
+                "In the southern hemisphere",
+                "In the northern hemisphere",
+                "In both hemispheres",
+                "In none"
+              ],
+              "ca":"In both hemispheres",
+              "help":"El 70 %del territorio se encuentra en el hemisferio norte y el otro 30% en el hemisferio sur."
+            },
+            {
+              "q":"The Amazon River and the Orinoco are the natural borders of Colombia with:",
+              "o":[
+                "Brasil y Guyana",
+                "Perú y Brasil",
+                "Venezuela y Argentina",
+                "Perú y Venezuela"
+              ],
+              "ca":"Perú y Venezuela",
+              "help":""
+            },
+            {
+              "q":"Colombia is the second flower exporter in the world after:",
+              "o":[
+                "Japón",
+                "EE.UU.",
+                "Holanda",
+                "Kenia"
+              ],
+              "ca":"Holanda",
+              "help":""
+            },
+            {
+              "q":"Colombia is one of the richest countries in the world in:",
+              "o":[
+                "Cattle breeds",
+                "Deserts",
+                "Biodiversity",
+                "Primary forest"
+              ],
+              "ca":"Biodiversity",
+              "help":""
+            },
+            {
+              "q":"The pathologist Manuel Elkin Patarroyo is famous for studies of a synthetic vaccine against:",
+              "o":[
+                "Ebola",
+                "Malaria",
+                "Chikungunya",
+                "Dengue"
+              ],
+              "ca":"Malaria",
+              "help":""
+            },
+            {
+              "q":"One of the tribes or indigenous peoples that inhabits the northeast of the country is called:",
+              "o":[
+                "Zenú",
+                "Wayú",
+                "Emberá",
+                "Ticuna"
+              ],
+              "ca":"Wayú",
+              "help":"Los wayú o guajiros (del arahuaco guajiro, “señor, hombre poderoso”), son aborígenes de la península de la Guajira, sobre el mar Caribe, que habitan territorios de Colombia y Venezuela, sin tener en cuenta las fronteras entre estos dos países sudamericanos."
+            },
+            {
+              "q":"What garment is a cultural symbol of Colombia?",
+              "o":[
+                "The poncho",
+                "The ruana",
+                "The vueltiao hat",
+                "The guayabera"
+              ],
+              "ca":"The vueltiao hat",
+              "help":"El sombrero vueltiao es símbolo por excelencia de la colombianidad. Se hizo conocido cuando el boxeador Miguel “Happy” Lora lo usó al convertirse en campeón mundial en 1985. El Congreso de la República lo declaró patrimonio cultural de la nación a través del decreto ley 908 de 2004. (Ema)."
+            }
+          ]
+        },
+        {
+          "type":"bigherosix",
+          "questions":[
+            {
+              "q":"Which are the protagonists?",
+              "o":[
+                "Wasabi y Honey Lemon",
+                "Gogo",
+                "Fred",
+                "Baymax y Hiro Hamada"
+              ],
+              "ca":"Baymax y Hiro Hamada",
+              "help":""
+            },
+            {
+              "q":"Where do the characters live?",
+              "o":[
+                "San Tokyo",
+                "San Antokyo",
+                "San Francisco",
+                "San Fransokyo"
+              ],
+              "ca":"San Fransokyo",
+              "help":""
+            },
+            {
+              "q":"Who created Baymax",
+              "o":[
+                "Hiro Hamada",
+                "Callaghan",
+                "Tadashi Hamada",
+                "Honey Lemon"
+              ],
+              "ca":"Tadashi Hamada",
+              "help":""
+            },
+            {
+              "q":"Big Hero 6 was dominated and Oscar winner",
+              "o":[
+                "Yes, she was nominated and winner",
+                "No",
+                "Was not nominated",
+                "It was dominated but not winning"
+              ],
+              "ca":"Yes, she was nominated and winner",
+              "help":""
+            },
+            {
+              "q":"What is the name of the father of Fred",
+              "o":[
+                "Wasabi no Ginger",
+                "Stan Lee",
+                "Heathcliff",
+                "No lo dicen"
+              ],
+              "ca":"Stan Lee",
+              "help":""
+            },
+            {
+              "q":"What is the name of the antagonist?",
+              "o":[
+                "Alistair Krei",
+                "Yama",
+                "Robert Callaghan",
+                "Mochi"
+              ],
+              "ca":"Robert Callaghan",
+              "help":""
+            },
+            {
+              "q":"Who invented the Microbots",
+              "o":[
+                "Hiro Hamada",
+                "Tadashi Hamada",
+                "Robert Callaghan",
+                "Alistair Krey"
+              ],
+              "ca":"Hiro Hamada",
+              "help":""
+            },
+            {
+              "q":"Who is Yokai?",
+              "o":[
+                "Ghost",
+                "Aunt Cass's cat",
+                "Abigail Callaghan",
+                "Yama"
+              ],
+              "ca":"Ghost",
               "help":""
             }
           ]

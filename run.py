@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os.path
+import uuid
 import random
 from flask import Flask, request, render_template, \
     json, jsonify, redirect, url_for
@@ -48,12 +49,12 @@ def index():
     print(data)
     print("------------------------ index ------------------------")
     if fn == "base":
-        data = {"fn":fn,"name": "Guest"}
+        data = {"fn":fn,"name": uuid.uuid4(),"score":0,"level":1,"leveltotal":3}
     return render_template('index.html', data=data)
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5001, debug=True)
 
 # curl -H "Content-Type: application/json" -d '{"fn":"auth","name":"Fesus"}' 0:5000
 # curl -H "Content-Type: application/json" -d '{"fn":"question","name":"Fesus"}' 0:5000

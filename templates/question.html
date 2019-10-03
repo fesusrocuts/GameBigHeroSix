@@ -3,18 +3,18 @@
 </div>
 <div class="answers">
   <div class="answer btnAnswer">
-    <a onclick="question('{{answers[0]}}')">{{answers[0]}}</a>
+    <a onclick="question('{{name}}','{{answers[0]}}',{{level}},{{nq}})">{{answers[0]}}</a>
   </div>
   <div class="answer btnAnswer">
-    <a onclick="question('{{answers[1]}}')">{{answers[1]}}</a>
+    <a onclick="question('{{name}}','{{answers[1]}}',{{level}},{{nq}})">{{answers[1]}}</a>
   </div>
   <div class="answer btnAnswer">
-    <a onclick="question('{{answers[2]}}')">{{answers[2]}}</a>
+    <a onclick="question('{{name}}','{{answers[2]}}',{{level}},{{nq}})">{{answers[2]}}</a>
   </div>
   <div class="answer btnAnswer">
-    <a onclick="question('{{answers[3]}}')">{{answers[3]}}</a>
+    <a onclick="question('{{name}}','{{answers[3]}}',{{level}},{{nq}})">{{answers[3]}}</a>
   </div>
 </div>
 <script>
-update('{{name}}',{{score}},{{level}})
+update('{{name}}',{{score}},{{level}},{{nq}})
 </script>

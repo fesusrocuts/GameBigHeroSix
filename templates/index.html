@@ -4,16 +4,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/default.css') }}">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script type="text/javascript" src="{{ url_for('static', filename='js/default.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/default.js') }}?{{data.cache_id}}"></script>
 </head>
 <body>
   <div class="container">
     <div class="box">
       <div class="head">
-        <div class="section">
+        <div class="section name">
           info user, Hi {{data.name}}
         </div>
-        <div class="section">
+        <div class="section score">
           score is {{data.score}} points
         </div>
       </div>
@@ -27,7 +27,7 @@
         <div class="section">
           You need take screenshot and send and your teacher, your name is a hash
         </div>
-        <div class="section">
+        <div class="section level">
           Current level is {{data.level}}, total levels are {{data.leveltotal}}
         </div>
       </div>

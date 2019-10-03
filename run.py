@@ -35,6 +35,7 @@ def question():
         c2 = int(len_t1qx * random.random())
         question = json_struct["level"][1]["topics"][c1]['questions'][c2]["q"]
         answers = json_struct["level"][1]["topics"][c1]['questions'][c2]["o"]
+        ca = json_struct["level"][1]["topics"][c1]['questions'][c2]["ca"]
 
         print(int(len_t0t * random.random()))
         print(int(len_t1qx * random.random()))
@@ -43,7 +44,7 @@ def question():
         # print json_struct["level"][0]["topics"][0]['questions'].len()
         # print dbjson.level[0].topics[1].questions.len()
 	# nq is number question
-    return render_template('question.html', name=name, nq = nq, score=score, level=level, question=question, answers=answers)
+    return render_template('question.html', name=name, nq = nq, score=score, level=level, question=question, answers=answers, ca = ca)
     # return "question..."
 
 @app.route('/', methods=['GET', 'POST', 'PUT', 'DELETE'])

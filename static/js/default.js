@@ -16,13 +16,15 @@ $(".level").html("Level "+level)
 $(".questions").html("Questions "+nq)
 }
 
-function question(name, answer, level, nq) {
+function question(name, answer, level, nq, ca) {
 	// ajax the JSON to the server
-	$.post("question", {"name":name,"answer":answer,"nq":nq,"level":level}, function (data, status) {
+	$.post("question", {"name":name,"answer":answer,"nq":nq,"level":level, "ca":ca}, function (data, status) {
       console.log("question receive:");
       console.log("Ajax post status is " + status);
       console.log(data);
       $(".question").html(data)
+      if (ca !== undefined) $(".result").html("<b>The last answer correct is "+ ca +", Compare your answer, your choose: " + answer+"</b>");
+      else $(".result").html("");
   });
 	// stop link reloading the page
  event.preventDefault();
